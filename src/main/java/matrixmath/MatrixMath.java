@@ -1,12 +1,13 @@
 package matrixmath;
 
+import matrixmath.calculations.DeterminantOperation;
 import matrixmath.calculations.IMathOperation;
 
 /**
  * Created by simon on 20.03.17.
  */
 public class MatrixMath {
-    private static IMathOperation[] operations = {};
+    private static IMathOperation[] operations = {new DeterminantOperation()};
 
     public static void main(String[] args) {
         System.out.println("Welcome to the simple math calculator!");
