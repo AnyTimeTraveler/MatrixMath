@@ -63,8 +63,8 @@ public class UserInput {
     }
 
     public static void printMatrix(double[][] matrix, int untilX, int untilY) {
-        for (int x = 0; x < untilX; x++) {
-            for (int y = 0; y < untilY; y++) {
+        for (int y = 0; y < untilY; y++) {
+            for (int x = 0; x < untilX; x++) {
                 System.out.print("[");
                 System.out.print(matrix[x][y]);
                 System.out.print("] ");
