@@ -1,3 +1,5 @@
+package matrixmath;
+
 import java.awt.*;
 import java.util.Scanner;
 

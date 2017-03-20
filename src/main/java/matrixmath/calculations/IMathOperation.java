@@ -1,4 +1,4 @@
-package calculations;
+package matrixmath.calculations;
 
 /**
  * Created by simon on 20.03.17.

@@ -1,4 +1,6 @@
-import calculations.IMathOperation;
+package matrixmath;
+
+import matrixmath.calculations.IMathOperation;
 
 /**
  * Created by simon on 20.03.17.
