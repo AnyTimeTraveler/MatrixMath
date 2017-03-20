@@ -12,6 +12,14 @@
     <groupId>science.simonstruck</groupId>
     <artifactId>matrixmath</artifactId>
     <version>1.0</version>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.11</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
