@@ -51,7 +51,7 @@ public class DeterminantOperation implements IMathOperation {
         return det;
     }
 
-    private static double[][] delRowCols(double[][] matrix, int x, int y) {
+    private static double[][] delRowCols(double[][] matrix, int x, @SuppressWarnings("SameParameterValue") int y) {
         double[][] newMatrix = new double[matrix.length - 1][matrix.length - 1];
 
         for (int xc = 0; xc < matrix.length; xc++) {

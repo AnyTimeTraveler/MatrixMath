@@ -8,7 +8,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by simon on 20.03.17.
+ * @author simon
+ * Created on 20.03.17
  */
 public class MatrixMath {
 

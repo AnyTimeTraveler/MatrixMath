@@ -1,12 +1,13 @@
 package matrixmath.calculations;
 
 /**
- * Created by simon on 20.03.17.
+ * @author simon
+ * Created on 20.03.17
  */
 public interface IMathOperation {
-    public String getName();
+    String getName();
 
-    public String getDescription();
+    String getDescription();
 
-    public void execute();
+    void execute();
 }

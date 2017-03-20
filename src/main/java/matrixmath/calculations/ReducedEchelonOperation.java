@@ -20,7 +20,6 @@ public class ReducedEchelonOperation implements IMathOperation {
         return "This operation turns the passed matrix into the reduced echelon form";
     }
 
-    @SuppressWarnings("UnnecessaryLabelOnBreakStatement")
     @Override
     public void execute() {
         Dimension matrixSize = UserInput.getMatrixSize();
@@ -41,11 +40,11 @@ public class ReducedEchelonOperation implements IMathOperation {
             for (int y = 0; y < matrix[0].length; y++) {
                 if (visitedRows[y]) continue;
 
-                inner: for (int x = 0; x < matrix.length; x++) {
+                for (int x = 0; x < matrix.length; x++) {
                     if (matrix[x][y] != 0 && x < maxIdx) {
                         maxIdx = x;
                         maxLine = y;
-                        break inner;
+                        break;
                     }
                 }
             }
@@ -69,7 +68,7 @@ public class ReducedEchelonOperation implements IMathOperation {
                 }
             }
         }
-        
+
         UserInput.printMatrix(matrix);
     }
 

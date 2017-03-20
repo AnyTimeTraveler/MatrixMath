@@ -4,8 +4,10 @@ import java.awt.*;
 import java.util.Scanner;
 
 /**
- * Created by simon on 20.03.17.
+ * @author simon
+ * Created on 20.03.17
  */
+@SuppressWarnings("WeakerAccess")
 public class UserInput {
     private static final Scanner scanner;
 
